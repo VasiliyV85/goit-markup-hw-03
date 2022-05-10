@@ -48,7 +48,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  border: 1px solid red;
+  outline: 2px solid red;
 }
 
 .visually-hidden {
@@ -105,7 +105,7 @@ body {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
-  zline-height: 1.1;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   /* text-transform: uppercase; */
   color: var(--title-text-color);
@@ -166,9 +166,14 @@ body {
   margin-right: 93px;
 }
 
+/* .header-nav .accent {
+  margin-right: 93px;
+} */
+
 .header-item,
 .item-adress {
   margin-right: 50px;
+  outline: 2px solid tomato;
 }
 
 .item-adress:last-child,
@@ -177,16 +182,27 @@ body {
   margin-right: 0;
 }
 
+.header-item .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 /* .telephon {
   padding-right: 3px;
 } */
 
 .contact {
-  margin-left: 334px;
+  margin-left: auto;
 }
 
 .top {
   padding-top: 34px;
+}
+
+.hero {
+  padding-top: 200px;
+  margin-bottom: 30px;
+  align-items: center;
 }
 
 .advantages-list {
@@ -213,6 +229,32 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.footer {
+}
+
+.logo .footer {
+  /* display: block; */
+  width: 145px;
+  margin-right: 0;
+  pading-top: 60px;
+  pading-bottom: 20px;
+  outline: 2px solid tomato;
+}
+
+.logo .footer {
+  display: block;
+  outline: 2px solid tomato;
+}
+
+.footer-menu-address {
+  display: block;
+  width: 231px;
+  margin-right: 0;
+  margin-bottom: 60px;
+  outline: 2px solid tomato;
+}
+
 .header-nav .link {
   font-family: 'Roboto';
   font-weight: 500;
@@ -288,7 +330,12 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 200px;
   /* identical to box height, or 188% */
   /* display: flex;
   align-items: center;
